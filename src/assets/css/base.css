@@ -1,0 +1,32 @@
+@import "./normalize.css";
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+html{
+  height: 100%;
+}
+/*:root -> 获取根元素HTML*/
+:root{
+    /*css中定义变量*/
+    --color-text: #666;
+    --color-high-text: #ff5777;
+    --color-tint: #ff8198;
+    --color-background: #fff;
+    --font-size: 14px;
+    --line-height: 1.5;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family:  "Helvetica Nene",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei ","微软雅黑","Adobe Arabic",sans-serif;
+}
